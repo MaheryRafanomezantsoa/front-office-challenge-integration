@@ -1,0 +1,238 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\utilisateur\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'audit',
+0 verbose cli   'fix'
+0 verbose cli ]
+1 info using npm@7.7.6
+2 info using node@v14.16.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Users\utilisateur\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\utilisateur\Desktop\front-office-challenge-integration\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:C:\Users\utilisateur\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\utilisateur\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 10ms
+18 timing npm:load:configload Completed in 10ms
+19 timing npm:load:setTitle Completed in 0ms
+20 timing npm:load:setupLog Completed in 1ms
+21 timing npm:load:cleanupLog Completed in 3ms
+22 timing npm:load:configScope Completed in 0ms
+23 timing npm:load:projectScope Completed in 1ms
+24 timing npm:load Completed in 17ms
+25 timing config:load:flatten Completed in 3ms
+26 timing arborist:ctor Completed in 1ms
+27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 460ms
+28 timing auditReport:getReport Completed in 464ms
+29 timing metavuln:cache:get:security-advisory:glob-parent:yP+dtEUmIJbc0CCrOxGEHGS4or5piaAG60L/wI8/kZARH/GSnm8tpUupYz8o+noIOX3dZRwOHW9EcPo1S2qL5Q== Completed in 14ms
+30 timing metavuln:cache:get:security-advisory:browserslist:5HAkp8zBYqaljrC4t1mzN6M3gFspbVPluYL3ZOTl8St99YnDxIPke13e/M2cXbLSYETnGNN2urx71tsCZpLnaQ== Completed in 16ms
+31 http fetch GET 304 https://registry.npmjs.org/browserslist 154ms (from cache)
+32 timing metavuln:packument:browserslist Completed in 159ms
+33 timing metavuln:load:security-advisory:browserslist:1747 Completed in 2ms
+34 timing metavuln:calculate:security-advisory:browserslist:1747 Completed in 161ms
+35 http fetch GET 304 https://registry.npmjs.org/glob-parent 197ms (from cache)
+36 timing metavuln:packument:glob-parent Completed in 199ms
+37 timing metavuln:load:security-advisory:glob-parent:1751 Completed in 0ms
+38 timing metavuln:calculate:security-advisory:glob-parent:1751 Completed in 199ms
+39 timing metavuln:cache:get:security-advisory:react-dev-utils:uPgDbD5/9LHx2lhyVLPFdBuPec0ScZHbrdUd7kNnQnsBEaL6m/fyqU3f8UH8IzC/2J9cYZ3yOLXLf8CNKZecwA== Completed in 4ms
+40 http fetch GET 304 https://registry.npmjs.org/react-dev-utils 75ms (from cache)
+41 timing metavuln:packument:react-dev-utils Completed in 78ms
+42 timing metavuln:load:security-advisory:react-dev-utils:5HAkp8zBYqaljrC4t1mzN6M3gFspbVPluYL3ZOTl8St99YnDxIPke13e/M2cXbLSYETnGNN2urx71tsCZpLnaQ== Completed in 3ms
+43 timing metavuln:calculate:security-advisory:react-dev-utils:5HAkp8zBYqaljrC4t1mzN6M3gFspbVPluYL3ZOTl8St99YnDxIPke13e/M2cXbLSYETnGNN2urx71tsCZpLnaQ== Completed in 81ms
+44 timing metavuln:cache:get:security-advisory:chokidar:daKwHjIHgawFdW4JubHK36cphG5Y3HsbKq51WDoSKP9axEH1llq6NztPurxOYf3hbpnLVNl/fkt+GdsJBsR/8g== Completed in 4ms
+45 http fetch GET 304 https://registry.npmjs.org/chokidar 72ms (from cache)
+46 timing metavuln:packument:chokidar Completed in 75ms
+47 timing metavuln:load:security-advisory:chokidar:yP+dtEUmIJbc0CCrOxGEHGS4or5piaAG60L/wI8/kZARH/GSnm8tpUupYz8o+noIOX3dZRwOHW9EcPo1S2qL5Q== Completed in 2ms
+48 timing metavuln:calculate:security-advisory:chokidar:yP+dtEUmIJbc0CCrOxGEHGS4or5piaAG60L/wI8/kZARH/GSnm8tpUupYz8o+noIOX3dZRwOHW9EcPo1S2qL5Q== Completed in 77ms
+49 timing metavuln:cache:get:security-advisory:react-scripts:TC2PdOxJI4UUEFriyLkFiYFgTwX0oQfEIMBhOjOr8JkgxPl9iJmYx2zJhqhBJkm4EwUWlSxE/ty1hDJ9PKugaQ== Completed in 8ms
+50 http fetch GET 304 https://registry.npmjs.org/react-scripts 96ms (from cache)
+51 timing metavuln:packument:react-scripts Completed in 105ms
+52 timing metavuln:load:security-advisory:react-scripts:uPgDbD5/9LHx2lhyVLPFdBuPec0ScZHbrdUd7kNnQnsBEaL6m/fyqU3f8UH8IzC/2J9cYZ3yOLXLf8CNKZecwA== Completed in 3ms
+53 timing metavuln:calculate:security-advisory:react-scripts:uPgDbD5/9LHx2lhyVLPFdBuPec0ScZHbrdUd7kNnQnsBEaL6m/fyqU3f8UH8IzC/2J9cYZ3yOLXLf8CNKZecwA== Completed in 108ms
+54 timing metavuln:cache:get:security-advisory:webpack-dev-server:zCTvLdVDU6+VRXx7HFzesFqFZUg2ilkM2Re0qkV+xphajULIc3rJBL4IEzCHu4TE+ALutJK9ZlIc/npmByVNvw== Completed in 14ms
+55 timing metavuln:cache:get:security-advisory:watchpack-chokidar2:9HNSdLwLNuDBzXK6OGvO+ksGMAxKXETBUpl6Sml1gypel5kX7HYEl48DCCmN5b2206jcH5W24gY6zWWNoSUuIg== Completed in 16ms
+56 http fetch GET 304 https://registry.npmjs.org/webpack-dev-server 78ms (from cache)
+57 timing metavuln:packument:webpack-dev-server Completed in 84ms
+58 timing metavuln:load:security-advisory:webpack-dev-server:daKwHjIHgawFdW4JubHK36cphG5Y3HsbKq51WDoSKP9axEH1llq6NztPurxOYf3hbpnLVNl/fkt+GdsJBsR/8g== Completed in 3ms
+59 timing metavuln:calculate:security-advisory:webpack-dev-server:daKwHjIHgawFdW4JubHK36cphG5Y3HsbKq51WDoSKP9axEH1llq6NztPurxOYf3hbpnLVNl/fkt+GdsJBsR/8g== Completed in 87ms
+60 http fetch GET 304 https://registry.npmjs.org/watchpack-chokidar2 93ms (from cache)
+61 timing metavuln:packument:watchpack-chokidar2 Completed in 94ms
+62 timing metavuln:load:security-advisory:watchpack-chokidar2:daKwHjIHgawFdW4JubHK36cphG5Y3HsbKq51WDoSKP9axEH1llq6NztPurxOYf3hbpnLVNl/fkt+GdsJBsR/8g== Completed in 0ms
+63 timing metavuln:calculate:security-advisory:watchpack-chokidar2:daKwHjIHgawFdW4JubHK36cphG5Y3HsbKq51WDoSKP9axEH1llq6NztPurxOYf3hbpnLVNl/fkt+GdsJBsR/8g== Completed in 94ms
+64 timing metavuln:cache:get:security-advisory:@pmmmwh/react-refresh-webpack-plugin:J+4cA0C1OdLDNKdyroijj754PYSccmQEZY9zI3u9CqBfQ5yRpmeC/Xk+utC4XqAEJxYlV2inu5NZxfko2E/Qew== Completed in 5ms
+65 timing metavuln:cache:get:security-advisory:react-scripts:2PCeNjTul9Xjz2W4+KPWEA9kGeVDP+nm3Bp/Cnl+Zfhc/zrCcz464keU0Z3eT536j4JvWVCpHWiIbK0+XgKT+g== Completed in 4ms
+66 timing metavuln:load:security-advisory:react-scripts:zCTvLdVDU6+VRXx7HFzesFqFZUg2ilkM2Re0qkV+xphajULIc3rJBL4IEzCHu4TE+ALutJK9ZlIc/npmByVNvw== Completed in 2ms
+67 timing metavuln:calculate:security-advisory:react-scripts:zCTvLdVDU6+VRXx7HFzesFqFZUg2ilkM2Re0qkV+xphajULIc3rJBL4IEzCHu4TE+ALutJK9ZlIc/npmByVNvw== Completed in 6ms
+68 http fetch GET 304 https://registry.npmjs.org/@pmmmwh%2freact-refresh-webpack-plugin 82ms (from cache)
+69 timing metavuln:packument:@pmmmwh/react-refresh-webpack-plugin Completed in 84ms
+70 timing metavuln:load:security-advisory:@pmmmwh/react-refresh-webpack-plugin:zCTvLdVDU6+VRXx7HFzesFqFZUg2ilkM2Re0qkV+xphajULIc3rJBL4IEzCHu4TE+ALutJK9ZlIc/npmByVNvw== Completed in 1ms
+71 timing metavuln:calculate:security-advisory:@pmmmwh/react-refresh-webpack-plugin:zCTvLdVDU6+VRXx7HFzesFqFZUg2ilkM2Re0qkV+xphajULIc3rJBL4IEzCHu4TE+ALutJK9ZlIc/npmByVNvw== Completed in 85ms
+72 timing metavuln:cache:get:security-advisory:watchpack:CUu+olmk0hTNufhgtra4iaZxB15MruzeNZwjXKjr7kxMdGpBg8jayXHmxAQd1pLGMchiQmOIccKfsSFyh5mv4A== Completed in 4ms
+73 http fetch GET 304 https://registry.npmjs.org/watchpack 61ms (from cache)
+74 timing metavuln:packument:watchpack Completed in 62ms
+75 timing metavuln:load:security-advisory:watchpack:9HNSdLwLNuDBzXK6OGvO+ksGMAxKXETBUpl6Sml1gypel5kX7HYEl48DCCmN5b2206jcH5W24gY6zWWNoSUuIg== Completed in 0ms
+76 timing metavuln:calculate:security-advisory:watchpack:9HNSdLwLNuDBzXK6OGvO+ksGMAxKXETBUpl6Sml1gypel5kX7HYEl48DCCmN5b2206jcH5W24gY6zWWNoSUuIg== Completed in 62ms
+77 timing metavuln:cache:get:security-advisory:react-scripts:c+5drJgHFX26lqoqu0j6/hc6GMfcKEfEXN/CJ4MOVo4LyhNd9nrfcnpEhhNkovghpMN5OieAntInmNIJ1ha/Pw== Completed in 2ms
+78 timing metavuln:load:security-advisory:react-scripts:J+4cA0C1OdLDNKdyroijj754PYSccmQEZY9zI3u9CqBfQ5yRpmeC/Xk+utC4XqAEJxYlV2inu5NZxfko2E/Qew== Completed in 0ms
+79 timing metavuln:calculate:security-advisory:react-scripts:J+4cA0C1OdLDNKdyroijj754PYSccmQEZY9zI3u9CqBfQ5yRpmeC/Xk+utC4XqAEJxYlV2inu5NZxfko2E/Qew== Completed in 2ms
+80 timing metavuln:cache:get:security-advisory:webpack:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 5ms
+81 http fetch GET 304 https://registry.npmjs.org/webpack 114ms (from cache)
+82 timing metavuln:packument:webpack Completed in 129ms
+83 timing metavuln:load:security-advisory:webpack:CUu+olmk0hTNufhgtra4iaZxB15MruzeNZwjXKjr7kxMdGpBg8jayXHmxAQd1pLGMchiQmOIccKfsSFyh5mv4A== Completed in 4ms
+84 timing metavuln:calculate:security-advisory:webpack:CUu+olmk0hTNufhgtra4iaZxB15MruzeNZwjXKjr7kxMdGpBg8jayXHmxAQd1pLGMchiQmOIccKfsSFyh5mv4A== Completed in 134ms
+85 http fetch GET 200 https://registry.npmjs.org/url-loader 44ms (from cache)
+86 timing metavuln:packument:url-loader Completed in 46ms
+87 timing metavuln:cache:get:security-advisory:css-loader:S9jh4c+edch8nVSejf5wdilPTiBGlpBoJCPS96LyU89Ix+q5Wov4XM5XsrejsLmk2D0PVPrTQh0Y/NEhN5rpCw== Completed in 57ms
+88 timing metavuln:cache:get:security-advisory:@pmmmwh/react-refresh-webpack-plugin:ygbV45HbCMrZfflpN4jmC+phw1F+1sCsK1ny23qaLgKo54J5bPFuKe9I0/s99N4bEXzpD6ZWvF9oGpDmmhnKAg== Completed in 58ms
+89 timing metavuln:load:security-advisory:@pmmmwh/react-refresh-webpack-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 1ms
+90 timing metavuln:calculate:security-advisory:@pmmmwh/react-refresh-webpack-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 59ms
+91 timing metavuln:cache:get:security-advisory:eslint-webpack-plugin:SwcS58Lztrm542Tj+RogXZfXQoRnzHOEydxdFQRdKQVDgj8ziXaBf1MqAz2DqEjfKpi+l0HX+yOqfiZ3FPLNNw== Completed in 64ms
+92 timing metavuln:cache:get:security-advisory:babel-loader:2fBPsms1xcqgw1Y1u+ibEomJ5+Hg7CGMKXRtWGgEBRGYmWgO37u9EqtDyUElTAjCjGi0C11qe9i2GaPFKisDHw== Completed in 66ms
+93 timing metavuln:cache:get:security-advisory:html-webpack-plugin:emG1Fn7HjPus80oGCfcZoI0J2naRwIzO4hGBgQEOJi+LBqbp/CnQnh6dcvKlLaHfR0iHJVfB7O7zk1IKDPE88w== Completed in 62ms
+94 timing metavuln:cache:get:security-advisory:file-loader:5dLZIGa5qpgyHX//AJleCe7GOnerXPvaK36LAQxAlrJ6yrruIvLnePoSl3c+vQjl27jKwyTfBymTBLZ97Ij+VA== Completed in 63ms
+95 timing metavuln:cache:get:security-advisory:mini-css-extract-plugin:TWwc8OzO6uLEMhoZ7pgx5xrvh9mz1w33S53WQLOrO3mG8edUpayikCB1LQrUcspuZg2Ys+eIOJiptxlhk/J6Zg== Completed in 61ms
+96 timing metavuln:cache:get:security-advisory:optimize-css-assets-webpack-plugin:zYPinZZcul5LOCPfwR4Y6iDIeUr6YrsdQzvWj8cmtiUAg3KIXhxIin/xmG0pxR1yA0VYc5im5bJnisG3aJV9kw== Completed in 58ms
+97 timing metavuln:cache:get:security-advisory:sass-loader:fqPO7Z4rGQohzoU+SPSTTQDRPW52gFsLcfvyhuPZ4KAbCvvViIUprU9g5zVFQC1qe+1vqBzM5GKiMgn/ArLkLQ== Completed in 57ms
+98 timing metavuln:cache:get:security-advisory:style-loader:fq2IFWIRE1NDbHmy2HYDVSQDmfxv4yLc5uUv2XWy6HZcUA5fO9ZNCBG+f3F2IoO5a2r4eppI0HMZ/OpDCUvaQg== Completed in 56ms
+99 timing metavuln:cache:get:security-advisory:terser-webpack-plugin:hZmwjoChBVYA3ZiEGu8dKvqj1oqC8jBA2/lG/7qeDsi7WBwEa6k8XYRRKfqZR2FRvrGS/3tJLI1dzsy0plhqzA== Completed in 55ms
+100 timing metavuln:cache:get:security-advisory:webpack-dev-middleware:/esQhK9uhx8fvr4M6edUHboEdRQZFrmFTESHUqJahj1ck1gaVr0RYRs+1KqTq8kkjk+LQh58apgLG+JhDrgoZQ== Completed in 54ms
+101 timing metavuln:cache:get:security-advisory:react-scripts:3mhZb2+Q4vue1KUhoeIluPbzSGrVQstCR/+ZUVNYJgUtJIPeVOPqM7F9GTq78WTZYMAWp8JGI8baQ0HGMiiX9Q== Completed in 57ms
+102 timing metavuln:load:security-advisory:react-scripts:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 1ms
+103 timing metavuln:calculate:security-advisory:react-scripts:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 58ms
+104 timing metavuln:cache:get:security-advisory:webpack-dev-server:dAARTvRi7Bh3WMy5KPE/LLU58nMdrnwdunlFdvdj2gk5b0p3dsAM1/gtheqpzqytt3HsCHs0EXmKsfWIwXt1/Q== Completed in 55ms
+105 timing metavuln:load:security-advisory:webpack-dev-server:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 1ms
+106 timing metavuln:calculate:security-advisory:webpack-dev-server:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 56ms
+107 timing metavuln:cache:get:security-advisory:url-loader:bRBbHHzuaEuAkgx7MyuZbjfWJYgJnpIox+/ZYURl1g3PutpEIb31aNlZINRv2zQy/8sxO9hYOSbusyEHDy27yA== Completed in 73ms
+108 timing metavuln:load:security-advisory:url-loader:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 0ms
+109 timing metavuln:calculate:security-advisory:url-loader:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 73ms
+110 timing metavuln:cache:get:security-advisory:webpack-manifest-plugin:KnQu0V42RNUSRLzZ102AP2VmzBGxnZIAu/B/gidcSLfn+iBfiGVsUpKmiRblKC/72N+NKNqU5wfu6hKAD5QmBg== Completed in 71ms
+111 timing metavuln:cache:get:security-advisory:workbox-webpack-plugin:bf8amGtdO/UUpAbB+7CVS4I+ccWbvRk9p3fDinn4fVXTey29Cf3vzL8dDgnhAGPJNvkWfpfek/8PpEtJbYAzVg== Completed in 70ms
+112 http fetch GET 304 https://registry.npmjs.org/babel-loader 100ms (from cache)
+113 timing metavuln:packument:babel-loader Completed in 101ms
+114 timing metavuln:load:security-advisory:babel-loader:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 0ms
+115 timing metavuln:calculate:security-advisory:babel-loader:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 101ms
+116 http fetch GET 304 https://registry.npmjs.org/css-loader 103ms (from cache)
+117 timing metavuln:packument:css-loader Completed in 105ms
+118 timing metavuln:load:security-advisory:css-loader:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 1ms
+119 timing metavuln:calculate:security-advisory:css-loader:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 106ms
+120 http fetch GET 304 https://registry.npmjs.org/style-loader 241ms (from cache)
+121 timing metavuln:packument:style-loader Completed in 243ms
+122 timing metavuln:load:security-advisory:style-loader:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 3ms
+123 timing metavuln:calculate:security-advisory:style-loader:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 246ms
+124 http fetch GET 304 https://registry.npmjs.org/sass-loader 250ms (from cache)
+125 timing metavuln:packument:sass-loader Completed in 253ms
+126 timing metavuln:load:security-advisory:sass-loader:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 1ms
+127 timing metavuln:calculate:security-advisory:sass-loader:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 254ms
+128 http fetch GET 304 https://registry.npmjs.org/webpack-manifest-plugin 277ms (from cache)
+129 timing metavuln:packument:webpack-manifest-plugin Completed in 280ms
+130 timing metavuln:load:security-advisory:webpack-manifest-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 0ms
+131 timing metavuln:calculate:security-advisory:webpack-manifest-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 280ms
+132 http fetch GET 304 https://registry.npmjs.org/mini-css-extract-plugin 320ms (from cache)
+133 timing metavuln:packument:mini-css-extract-plugin Completed in 329ms
+134 timing metavuln:load:security-advisory:mini-css-extract-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 1ms
+135 timing metavuln:calculate:security-advisory:mini-css-extract-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 330ms
+136 http fetch GET 304 https://registry.npmjs.org/file-loader 342ms (from cache)
+137 timing metavuln:packument:file-loader Completed in 343ms
+138 timing metavuln:load:security-advisory:file-loader:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 3ms
+139 timing metavuln:calculate:security-advisory:file-loader:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 346ms
+140 http fetch GET 304 https://registry.npmjs.org/workbox-webpack-plugin 334ms (from cache)
+141 timing metavuln:packument:workbox-webpack-plugin Completed in 336ms
+142 timing metavuln:load:security-advisory:workbox-webpack-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 1ms
+143 timing metavuln:calculate:security-advisory:workbox-webpack-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 338ms
+144 http fetch GET 304 https://registry.npmjs.org/webpack-dev-middleware 345ms (from cache)
+145 timing metavuln:packument:webpack-dev-middleware Completed in 349ms
+146 timing metavuln:load:security-advisory:webpack-dev-middleware:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 0ms
+147 timing metavuln:calculate:security-advisory:webpack-dev-middleware:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 349ms
+148 http fetch GET 304 https://registry.npmjs.org/terser-webpack-plugin 352ms (from cache)
+149 timing metavuln:packument:terser-webpack-plugin Completed in 355ms
+150 timing metavuln:load:security-advisory:terser-webpack-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 1ms
+151 timing metavuln:calculate:security-advisory:terser-webpack-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 357ms
+152 http fetch GET 304 https://registry.npmjs.org/optimize-css-assets-webpack-plugin 359ms (from cache)
+153 timing metavuln:packument:optimize-css-assets-webpack-plugin Completed in 360ms
+154 timing metavuln:load:security-advisory:optimize-css-assets-webpack-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 0ms
+155 timing metavuln:calculate:security-advisory:optimize-css-assets-webpack-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 360ms
+156 http fetch GET 304 https://registry.npmjs.org/html-webpack-plugin 369ms (from cache)
+157 timing metavuln:packument:html-webpack-plugin Completed in 373ms
+158 timing metavuln:load:security-advisory:html-webpack-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 1ms
+159 timing metavuln:calculate:security-advisory:html-webpack-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 374ms
+160 http fetch GET 304 https://registry.npmjs.org/eslint-webpack-plugin 933ms (from cache)
+161 timing metavuln:packument:eslint-webpack-plugin Completed in 933ms
+162 timing metavuln:load:security-advisory:eslint-webpack-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 0ms
+163 timing metavuln:calculate:security-advisory:eslint-webpack-plugin:b96SX6yQgU8w5YHXVDzrrjSnO4H0x1l/lu6g3La0gI+HkPOGAOWNZOtS+rOoK2+DgGL9eio87k+MsvOXntqw1w== Completed in 933ms
+164 timing auditReport:init Completed in 1831ms
+165 timing audit Completed in 3405ms
+166 timing idealTree:init Completed in 2ms
+167 timing idealTree:userRequests Completed in 0ms
+168 silly idealTree buildDeps
+169 silly fetch manifest react-scripts@^4.0.3
+170 silly fetch manifest react@^17.0.2
+171 timing arborist:ctor Completed in 0ms
+172 http fetch GET 304 https://registry.npmjs.org/react 1100ms (from cache)
+173 silly fetch manifest typescript@^4.1.2
+174 http fetch GET 304 https://registry.npmjs.org/typescript 95ms (from cache)
+175 silly placeDep ROOT react-scripts@4.0.3 KEEP for: olympics-2020@0.1.0 want: ^4.0.3
+176 timing idealTree:#root Completed in 1241ms
+177 silly fetch manifest webpack@>=4.43.0 <6.0.0
+178 silly fetch manifest type-fest@^0.13.1
+179 http fetch GET 304 https://registry.npmjs.org/type-fest 62ms (from cache)
+180 silly fetch manifest webpack-dev-server@3.x
+181 timing idealTree Completed in 1314ms
+182 timing command:audit Completed in 4721ms
+183 verbose stack Error: unable to resolve dependency tree
+183 verbose stack     at Arborist.[failPeerConflict] (C:\Users\utilisateur\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1157:25)
+183 verbose stack     at Arborist.[placeDep] (C:\Users\utilisateur\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1256:32)
+183 verbose stack     at C:\Users\utilisateur\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:851:46
+183 verbose stack     at Array.map (<anonymous>)
+183 verbose stack     at Arborist.[buildDepStep] (C:\Users\utilisateur\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:851:8)
+183 verbose stack     at async Arborist.buildIdealTree (C:\Users\utilisateur\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:209:7)
+183 verbose stack     at async Promise.all (index 1)
+183 verbose stack     at async Arborist.reify (C:\Users\utilisateur\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+183 verbose stack     at async Audit.audit (C:\Users\utilisateur\AppData\Roaming\npm\node_modules\npm\lib\audit.js:63:5)
+184 verbose cwd C:\Users\utilisateur\Desktop\front-office-challenge-integration
+185 verbose Windows_NT 10.0.19042
+186 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\utilisateur\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "audit" "fix"
+187 verbose node v14.16.0
+188 verbose npm  v7.7.6
+189 error code ERESOLVE
+190 error ERESOLVE unable to resolve dependency tree
+191 error
+192 error Found: [1mtype-fest[22m@[1m0.21.3[22m[2m[22m
+192 error [2mnode_modules/type-fest[22m
+192 error   [1mtype-fest[22m@"[1m^0.21.3[22m" from [1mansi-escapes[22m@[1m4.3.2[22m[2m[22m
+192 error   [2mnode_modules/ansi-escapes[22m
+192 error     [1mansi-escapes[22m@"[1m^4.2.1[22m" from [1m@jest/core[22m@[1m26.6.3[22m[2m[22m
+192 error     [2mnode_modules/@jest/core[22m
+192 error       [1m@jest/core[22m@"[1m^26.6.0[22m" from [1mjest[22m@[1m26.6.0[22m[2m[22m
+192 error       [2mnode_modules/jest[22m
+192 error         [35mpeer[39m [1mjest[22m@"[1m^26.0.0[22m" from [1mjest-watch-typeahead[22m@[1m0.6.1[22m[2m[22m
+192 error         [2mnode_modules/jest-watch-typeahead[22m
+192 error         1 more (react-scripts)
+192 error       1 more (jest-cli)
+192 error     [1mansi-escapes[22m@"[1m^4.3.1[22m" from [1mjest-watch-typeahead[22m@[1m0.6.1[22m[2m[22m
+192 error     [2mnode_modules/jest-watch-typeahead[22m
+192 error       [1mjest-watch-typeahead[22m@"[1m0.6.1[22m" from [1mreact-scripts[22m@[1m4.0.3[22m[2m[22m
+192 error       [2mnode_modules/react-scripts[22m
+192 error         [1mreact-scripts[22m@"[1m^4.0.3[22m" from the root project
+192 error     2 more (jest-watcher, terminal-link)
+192 error
+192 error Could not resolve dependency:
+192 error peerOptional [1mtype-fest[22m@"[1m^0.13.1[22m" from [1m@pmmmwh/react-refresh-webpack-plugin[22m@[1m0.4.3[22m[2m[22m
+192 error [2mnode_modules/@pmmmwh/react-refresh-webpack-plugin[22m
+192 error   [1m@pmmmwh/react-refresh-webpack-plugin[22m@"[1m0.4.3[22m" from [1mreact-scripts[22m@[1m4.0.3[22m[2m[22m
+192 error   [2mnode_modules/react-scripts[22m
+192 error     [1mreact-scripts[22m@"[1m^4.0.3[22m" from the root project
+192 error
+192 error Fix the upstream dependency conflict, or retry
+192 error this command with --force, or --legacy-peer-deps
+192 error to accept an incorrect (and potentially broken) dependency resolution.
+192 error
+192 error See C:\Users\utilisateur\Desktop\front-office-challenge-integration\eresolve-report.txt for a full report.
+193 verbose exit 1
